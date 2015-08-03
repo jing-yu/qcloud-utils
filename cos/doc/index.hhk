@@ -1,0 +1,169 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a08d8f2b02fa7f45899971e3e19da8d63"><param name="Name" value="__init__"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a06dd3b489a33c57ea36505ab1fe77d03"><param name="Name" value="access_id"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a6495fa1c9f641b7b563fd48db0513b4f"><param name="Name" value="access_key"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#a07ed73e9d0dd23f5ed6dba8d4d084795"><param name="Name" value="accessId"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#a7c3db558cc875f378a935b27559917f9"><param name="Name" value="accessKey"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a3d84b7945a5decd909e5b13786fbe64a"><param name="Name" value="check_local_file"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#afc9facc4a19d8cb1e9677e581e54f304"><param name="Name" value="COMPRESS_FILE_URL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#aafc64a6cd040f6cf994947421790b442"><param name="Name" value="compressOnlineFile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#af2ee59f84e825e011fe06a7e789ef40a"><param name="Name" value="cos"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#aa68f9525ee346b0b398bd6739ea053d9"><param name="Name" value="COS_ACCESSID"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a05e8751cf1d1fe94199b670c42b94560"><param name="Name" value="COS_SIGN"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a023d43ec2d28beb3892b40a46ca0af7e"><param name="Name" value="COS_TIME"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html"><param name="Name" value="cosAPI::COSAPI"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a08d8f2b02fa7f45899971e3e19da8d63"><param name="Name" value="__init__"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a06dd3b489a33c57ea36505ab1fe77d03"><param name="Name" value="access_id"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a6495fa1c9f641b7b563fd48db0513b4f"><param name="Name" value="access_key"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a3d84b7945a5decd909e5b13786fbe64a"><param name="Name" value="check_local_file"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#aafc64a6cd040f6cf994947421790b442"><param name="Name" value="compressOnlineFile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a87f69df99ad10591c07d60d502bddb1a"><param name="Name" value="createBucket"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a1486049f7d8528bb35c8ebb5aab9c78c"><param name="Name" value="DefaultContentType"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a6780731057f42f08cb0cf89c37cd57f3"><param name="Name" value="deleteBucket"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a09a12ab19995ef60c6ea093ccda45250"><param name="Name" value="deleteFile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#ad47a9c0ea39806d52b2d7df25e4afe00"><param name="Name" value="get_connection"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a51e5cc552d593a9f7db38a35a862e1ce"><param name="Name" value="get_http_data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a27c720d1986790f14ef46e1c67ae9ddb"><param name="Name" value="get_optional_param_for_bucket"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a7c3ca759d78feacbc06743f40b497bf6"><param name="Name" value="get_optional_param_for_compress"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a5da275b27140e751f0c1ebeebb44bf50"><param name="Name" value="get_optional_param_for_dir"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#ade5ab9bcee3bda8b05747b965f447fcf"><param name="Name" value="get_optional_param_for_list"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#aeee996cb6f130cdc23113d2ecc1a20de"><param name="Name" value="get_partial_required_param"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#aaf03cc70739ae621c35333e20fcd7482"><param name="Name" value="get_partial_required_param_for_compress"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#adf3105f4fa4d72e4b57615ef37ec69e3"><param name="Name" value="getBucket"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#afa2903670be110f06ba264d1eadd6c67"><param name="Name" value="getMeta"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a4132de09d2709929340ec20660674d1d"><param name="Name" value="host"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a16e0222ccf769f4e71a6e5134639ca73"><param name="Name" value="http_request"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a1addbb578cf310acf02566df43a59eb8"><param name="Name" value="listBucket"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a6b7058dffa7cbba0c6a5ceb30d838bdb"><param name="Name" value="listFile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a034d80e6cbe9e6396600ceba5b7a07d5"><param name="Name" value="mkdir"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a7e8476270d568b37f1e2f851296f4ade"><param name="Name" value="port"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a210e269b70d47c74116bdf49c11f3358"><param name="Name" value="post_http_data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a810cd7edd2b7cb1474365a843b35ddd0"><param name="Name" value="rename"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#ad32b345a29501a41e003ced01dcabc5a"><param name="Name" value="rmdir"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a6f2f79af3eaa311f5efa72760af6bf06"><param name="Name" value="setBucket"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#ae17e4ceaa788222db1987592b8b38062"><param name="Name" value="setMeta"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a761ae89ae7856dfc5e9dd3935640cc10"><param name="Name" value="uploadFile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a234ed8c82e7d236dce9e7d08d082ffee"><param name="Name" value="uploadFileByContent"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#ae505972fc365c0b71074df071fb6fa24"><param name="Name" value="uploadFileByContentWithCompress"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#aed15b6a49994b3ceabcdfd4104fa2cc7"><param name="Name" value="uploadFileWithCompress"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html"><param name="Name" value="cosConst::COSCONST"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#afc9facc4a19d8cb1e9677e581e54f304"><param name="Name" value="COMPRESS_FILE_URL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#aa68f9525ee346b0b398bd6739ea053d9"><param name="Name" value="COS_ACCESSID"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a05e8751cf1d1fe94199b670c42b94560"><param name="Name" value="COS_SIGN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a023d43ec2d28beb3892b40a46ca0af7e"><param name="Name" value="COS_TIME"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#ac738ed2b0c96f9e960c54f0ef90c0693"><param name="Name" value="CREATEBUCKET_URL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#abd56eb3c1be6b5ff4c1575a3538b5a3d"><param name="Name" value="DELETEBUCKET_URL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a9146f9b07880d93f18103e5cf144c763"><param name="Name" value="DELETEFILE_URL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#ac3749974311728dacaecc4461fd0487b"><param name="Name" value="DOWNHOST"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a5ed71d52f9c93f4ad6ec0ef1a18e34f6"><param name="Name" value="FILE_MAX_LENGTH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#ab44f03c6ad4a37b1d4b46e97e91be7a0"><param name="Name" value="GETBUCKET_URL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#aa51794324c04d171a825f1a60ded3115"><param name="Name" value="GETMETA_URL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#aea23fbfd4024dfc7d92a25945185d7e5"><param name="Name" value="HTTPHOST"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a916739503ce81fc16602440a47a7a01c"><param name="Name" value="INERDOWNHOST"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#af7573f85e0a3825ceaaaccaf5d7c6a73"><param name="Name" value="INERTHOST"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a57733ab7e3cdc0a5cfbd7a39edfbe1c3"><param name="Name" value="LISTBUCKET_URL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a5fae82181a68771735df13b60bbf8291"><param name="Name" value="LISTFILE_URL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a5261514acd71eea527c3b7a4a5ac8861"><param name="Name" value="MKDIR_URL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#ac0a65c5c98f838d471923170e0dfd065"><param name="Name" value="RENAME_URL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a529ae9f7132b6198fb8152340e51df07"><param name="Name" value="RMDIR_URL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a61f7bc8e29eee45ba2f431f6beeae0b9"><param name="Name" value="SETBUCKET_URL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a277282dc0813b709ec6c70f928f446e2"><param name="Name" value="SETMETA_URL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a7ede4923a3ba3fc248871aab6ac20a79"><param name="Name" value="UPLOAD_URL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a24078a06e56b26357658bb8453737d59"><param name="Name" value="UPLOAD_WITHCOMPRESS_URL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html"><param name="Name" value="cosSample"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#a07ed73e9d0dd23f5ed6dba8d4d084795"><param name="Name" value="accessId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#a7c3db558cc875f378a935b27559917f9"><param name="Name" value="accessKey"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#af2ee59f84e825e011fe06a7e789ef40a"><param name="Name" value="cos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#aada996244fa23062b195d0b885a393be"><param name="Name" value="createBucketDemo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#a60fe475a9fcd009bfd009d3df7caeb4b"><param name="Name" value="deleteBucketDemo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#a4e04ffe065b6380b1995d943698b0f7f"><param name="Name" value="deleteFileDemo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#a59550584087deec07a40d8f3c39daa96"><param name="Name" value="getBucketDemo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#ace080d4225edccafd198c2406b5c4ebc"><param name="Name" value="getmetaDemo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#acb17f7167625815b4ec803888fa87371"><param name="Name" value="host"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#a6edc4a85ad7721d827dd0786d55edc99"><param name="Name" value="listBucketDemo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#adcb0429f38c54763db932ba2c7318624"><param name="Name" value="listFileDemo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#acadb7e7705b401cc37957cb366ac992f"><param name="Name" value="mkdirDemo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#ac03a6b0374c51a383294e5e343a0d80d"><param name="Name" value="renameDemo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#a04d2f0e1d1abb931bb4faa1a4bfb01a2"><param name="Name" value="rmdirDemo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#aa3385fe3a8a4c5344f7396241ae39733"><param name="Name" value="setBucketDemo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#acad1e282fa1c3bc39064b6b0a3a4d205"><param name="Name" value="setmetaDemo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#ad0ea8053d84bdc5ade70ef34b0213c0b"><param name="Name" value="uploadFileDemo"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a87f69df99ad10591c07d60d502bddb1a"><param name="Name" value="createBucket"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#ac738ed2b0c96f9e960c54f0ef90c0693"><param name="Name" value="CREATEBUCKET_URL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#aada996244fa23062b195d0b885a393be"><param name="Name" value="createBucketDemo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a1486049f7d8528bb35c8ebb5aab9c78c"><param name="Name" value="DefaultContentType"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a6780731057f42f08cb0cf89c37cd57f3"><param name="Name" value="deleteBucket"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#abd56eb3c1be6b5ff4c1575a3538b5a3d"><param name="Name" value="DELETEBUCKET_URL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#a60fe475a9fcd009bfd009d3df7caeb4b"><param name="Name" value="deleteBucketDemo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a09a12ab19995ef60c6ea093ccda45250"><param name="Name" value="deleteFile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a9146f9b07880d93f18103e5cf144c763"><param name="Name" value="DELETEFILE_URL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#a4e04ffe065b6380b1995d943698b0f7f"><param name="Name" value="deleteFileDemo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#ac3749974311728dacaecc4461fd0487b"><param name="Name" value="DOWNHOST"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a5ed71d52f9c93f4ad6ec0ef1a18e34f6"><param name="Name" value="FILE_MAX_LENGTH"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#ad47a9c0ea39806d52b2d7df25e4afe00"><param name="Name" value="get_connection"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a51e5cc552d593a9f7db38a35a862e1ce"><param name="Name" value="get_http_data"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a27c720d1986790f14ef46e1c67ae9ddb"><param name="Name" value="get_optional_param_for_bucket"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a7c3ca759d78feacbc06743f40b497bf6"><param name="Name" value="get_optional_param_for_compress"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a5da275b27140e751f0c1ebeebb44bf50"><param name="Name" value="get_optional_param_for_dir"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#ade5ab9bcee3bda8b05747b965f447fcf"><param name="Name" value="get_optional_param_for_list"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#aeee996cb6f130cdc23113d2ecc1a20de"><param name="Name" value="get_partial_required_param"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#aaf03cc70739ae621c35333e20fcd7482"><param name="Name" value="get_partial_required_param_for_compress"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#adf3105f4fa4d72e4b57615ef37ec69e3"><param name="Name" value="getBucket"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#ab44f03c6ad4a37b1d4b46e97e91be7a0"><param name="Name" value="GETBUCKET_URL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#a59550584087deec07a40d8f3c39daa96"><param name="Name" value="getBucketDemo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#afa2903670be110f06ba264d1eadd6c67"><param name="Name" value="getMeta"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#aa51794324c04d171a825f1a60ded3115"><param name="Name" value="GETMETA_URL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#ace080d4225edccafd198c2406b5c4ebc"><param name="Name" value="getmetaDemo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a4132de09d2709929340ec20660674d1d"><param name="Name" value="host"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a4132de09d2709929340ec20660674d1d"><param name="Name" value="cosAPI::COSAPI"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#acb17f7167625815b4ec803888fa87371"><param name="Name" value="cosSample"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a16e0222ccf769f4e71a6e5134639ca73"><param name="Name" value="http_request"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#aea23fbfd4024dfc7d92a25945185d7e5"><param name="Name" value="HTTPHOST"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a916739503ce81fc16602440a47a7a01c"><param name="Name" value="INERDOWNHOST"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#af7573f85e0a3825ceaaaccaf5d7c6a73"><param name="Name" value="INERTHOST"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a1addbb578cf310acf02566df43a59eb8"><param name="Name" value="listBucket"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a57733ab7e3cdc0a5cfbd7a39edfbe1c3"><param name="Name" value="LISTBUCKET_URL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#a6edc4a85ad7721d827dd0786d55edc99"><param name="Name" value="listBucketDemo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a6b7058dffa7cbba0c6a5ceb30d838bdb"><param name="Name" value="listFile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a5fae82181a68771735df13b60bbf8291"><param name="Name" value="LISTFILE_URL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#adcb0429f38c54763db932ba2c7318624"><param name="Name" value="listFileDemo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a034d80e6cbe9e6396600ceba5b7a07d5"><param name="Name" value="mkdir"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a5261514acd71eea527c3b7a4a5ac8861"><param name="Name" value="MKDIR_URL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#acadb7e7705b401cc37957cb366ac992f"><param name="Name" value="mkdirDemo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a7e8476270d568b37f1e2f851296f4ade"><param name="Name" value="port"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a210e269b70d47c74116bdf49c11f3358"><param name="Name" value="post_http_data"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a810cd7edd2b7cb1474365a843b35ddd0"><param name="Name" value="rename"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#ac0a65c5c98f838d471923170e0dfd065"><param name="Name" value="RENAME_URL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#ac03a6b0374c51a383294e5e343a0d80d"><param name="Name" value="renameDemo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#ad32b345a29501a41e003ced01dcabc5a"><param name="Name" value="rmdir"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a529ae9f7132b6198fb8152340e51df07"><param name="Name" value="RMDIR_URL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#a04d2f0e1d1abb931bb4faa1a4bfb01a2"><param name="Name" value="rmdirDemo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a6f2f79af3eaa311f5efa72760af6bf06"><param name="Name" value="setBucket"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a61f7bc8e29eee45ba2f431f6beeae0b9"><param name="Name" value="SETBUCKET_URL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#aa3385fe3a8a4c5344f7396241ae39733"><param name="Name" value="setBucketDemo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#ae17e4ceaa788222db1987592b8b38062"><param name="Name" value="setMeta"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a277282dc0813b709ec6c70f928f446e2"><param name="Name" value="SETMETA_URL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#acad1e282fa1c3bc39064b6b0a3a4d205"><param name="Name" value="setmetaDemo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a7ede4923a3ba3fc248871aab6ac20a79"><param name="Name" value="UPLOAD_URL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_const_1_1_c_o_s_c_o_n_s_t.html#a24078a06e56b26357658bb8453737d59"><param name="Name" value="UPLOAD_WITHCOMPRESS_URL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a761ae89ae7856dfc5e9dd3935640cc10"><param name="Name" value="uploadFile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#a234ed8c82e7d236dce9e7d08d082ffee"><param name="Name" value="uploadFileByContent"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#ae505972fc365c0b71074df071fb6fa24"><param name="Name" value="uploadFileByContentWithCompress"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecos_sample.html#ad0ea8053d84bdc5ade70ef34b0213c0b"><param name="Name" value="uploadFileDemo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcos_a_p_i_1_1_c_o_s_a_p_i.html#aed15b6a49994b3ceabcdfd4104fa2cc7"><param name="Name" value="uploadFileWithCompress"></OBJECT>
+</UL>
+</BODY>
+</HTML>

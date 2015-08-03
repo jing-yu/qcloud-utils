@@ -1,0 +1,258 @@
+2013-04-30 13:36:54,020 INFO    [cosutil.py:90(makesign)] before param : /api/cos_mkdir&accessId=90000003&bucketId=op&path=test&time=1367300213 
+2013-04-30 13:36:54,020 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_mkdir%26accessId%3D90000003%26bucketId%3Dop%26path%3Dtest%26time%3D1367300213
+2013-04-30 13:36:54,020 INFO    [cosapi.py:77(mkdir)] mkdir sign : 0aPGYpuTSXYbyTBgdTdJxwaLtSc%3D 
+2013-04-30 13:36:54,020 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_mkdir?bucketId=op&time=1367300213&sign=0aPGYpuTSXYbyTBgdTdJxwaLtSc%3D&accessId=90000003&path=test
+2013-04-30 13:36:54,145 INFO    [cosapi.py:85(mkdir)] mkdir response : {"code":0,"data":null,"msg":"ok"}
+ 
+2013-04-30 14:04:55,773 INFO    [cosutil.py:90(makesign)] before param : /api/cos_list_bucket&accessId=90000003&time=1367301895 
+2013-04-30 14:04:55,773 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_list_bucket%26accessId%3D90000003%26time%3D1367301895
+2013-04-30 14:04:55,773 INFO    [cosapi.py:375(listBucket)] listBukcet sign : sRVTb%2FaNdE4I3LfeNwVAgxJYtX4%3D 
+2013-04-30 14:04:55,773 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_list_bucket?sign=sRVTb%2FaNdE4I3LfeNwVAgxJYtX4%3D&accessId=90000003&time=1367301895
+2013-04-30 14:04:55,913 INFO    [cosapi.py:383(listBucket)] listBucket response : {"code":0,"data":{"direntlst":[{"acl":1,"crttime":1365401290,"name":"231","referer":"www.qq.com","type":2,"uptime":1366185654},{"acl":0,"crttime":1365401298,"name":"32","referer":"","type":2,"uptime":1365401298},{"acl":1,"crttime":1366129981,"name":"good","referer":"www.qq.com","type":2,"uptime":1366167555},{"acl":0,"crttime":1366167577,"name":"hij","referer":"","type":2,"uptime":1366167577},{"acl":0,"crttime":1366180398,"name":"joey","referer":"www.qw.com","type":2,"uptime":1366185864},{"acl":1,"crttime":1366179599,"name":"op","referer":"www.qq.com","type":2,"uptime":1366195798}],"foldertotalnum":6},"msg":"ok"}
+
+2013-04-30 14:33:00,951 INFO    [cosutil.py:90(makesign)] before param : /api/cos_mkdir&accessId=90000003&bucketId=op&path=test&time=1367303580 
+2013-04-30 14:33:00,951 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_mkdir%26accessId%3D90000003%26bucketId%3Dop%26path%3Dtest%26time%3D1367303580
+2013-04-30 14:33:00,951 INFO    [cosapi.py:77(mkdir)] mkdir sign : 7h5VaIrS9zfTCoZCcQnV7OitoWc%3D 
+2013-04-30 14:33:00,951 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_mkdir?bucketId=op&time=1367303580&sign=7h5VaIrS9zfTCoZCcQnV7OitoWc%3D&accessId=90000003&path=test
+2013-04-30 14:33:01,076 INFO    [cosapi.py:85(mkdir)] mkdir response : {"code":-24983,"data":null,"msg":"mkdir failed!error code is :path already exist"}
+ 
+2013-04-30 14:33:48,137 INFO    [cosutil.py:90(makesign)] before param : /api/cos_mkdir&accessId=90000003&bucketId=op&path=test&time=1367303628 
+2013-04-30 14:33:48,137 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_mkdir%26accessId%3D90000003%26bucketId%3Dop%26path%3Dtest%26time%3D1367303628
+2013-04-30 14:33:48,137 INFO    [cosapi.py:77(mkdir)] mkdir sign : V3mA8aUWJM%2Fov6FHUpcq%2F7sz5hg%3D 
+2013-04-30 14:33:48,137 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_mkdir?bucketId=op&time=1367303628&sign=V3mA8aUWJM%2Fov6FHUpcq%2F7sz5hg%3D&accessId=90000003&path=test
+2013-04-30 14:33:48,276 INFO    [cosapi.py:85(mkdir)] mkdir response : {"code":-24983,"data":null,"msg":"mkdir failed!error code is :path already exist"}
+ 
+2013-04-30 16:33:35,747 INFO    [cosutil.py:90(makesign)] before param : /api/cos_get_meta&accessId=90000003&bucketId=op&path=aa&time=1367310815 
+2013-04-30 16:33:35,779 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_get_meta%26accessId%3D90000003%26bucketId%3Dop%26path%3Daa%26time%3D1367310815
+2013-04-30 16:33:35,779 INFO    [cosapi.py:132(getMeta)] getmeta sign : 7dG2RD%2Fo4XnFkcC9chxSriO9dPc%3D 
+2013-04-30 16:33:35,779 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_get_meta?bucketId=op&time=1367310815&sign=7dG2RD%2Fo4XnFkcC9chxSriO9dPc%3D&accessId=90000003&path=aa
+2013-04-30 16:33:35,936 INFO    [cosapi.py:140(getMeta)] getmeta response : {"code":0,"data":{"crttime":1367289477,"type":2,"uptime":1367289477},"msg":"ok"}
+
+2013-04-30 16:34:04,095 INFO    [cosutil.py:90(makesign)] before param : /api/cos_set_meta&accessId=90000003&bucketId=op&cacheControl=max-age=23&expires=223&path=aa&time=1367310844 
+2013-04-30 16:34:04,095 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_set_meta%26accessId%3D90000003%26bucketId%3Dop%26cacheControl%3Dmax-age%3D23%26expires%3D223%26path%3Daa%26time%3D1367310844
+2013-04-30 16:34:04,095 INFO    [cosapi.py:159(setMeta)] setmeta sign : sy7nzer2zbmWidNud9DRxiS9VNU%3D 
+2013-04-30 16:34:04,095 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_set_meta?time=1367310844&bucketId=op&cacheControl=max-age=23&path=aa&expires=223&accessId=90000003&sign=sy7nzer2zbmWidNud9DRxiS9VNU%3D
+2013-04-30 16:34:04,252 INFO    [cosapi.py:167(setMeta)] setmeta response : {"code":0,"data":null,"msg":"ok"}
+
+2013-04-30 16:34:04,252 INFO    [cosutil.py:90(makesign)] before param : /api/cos_get_meta&accessId=90000003&bucketId=op&path=aa&time=1367310844 
+2013-04-30 16:34:04,252 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_get_meta%26accessId%3D90000003%26bucketId%3Dop%26path%3Daa%26time%3D1367310844
+2013-04-30 16:34:04,252 INFO    [cosapi.py:132(getMeta)] getmeta sign : r8J3R2G2dHBK2w6jjg0cRO7nkio%3D 
+2013-04-30 16:34:04,252 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_get_meta?bucketId=op&time=1367310844&sign=r8J3R2G2dHBK2w6jjg0cRO7nkio%3D&accessId=90000003&path=aa
+2013-04-30 16:34:04,377 INFO    [cosapi.py:140(getMeta)] getmeta response : {"code":0,"data":{"Cache-Control":"max-age=23","Expires":" Tue Apr 30 16:37:47 2013","crttime":1367289477,"type":2,"uptime":1367310844},"msg":"ok"}
+
+2013-04-30 16:34:15,471 INFO    [cosutil.py:90(makesign)] before param : /api/cos_set_meta&accessId=90000003&bucketId=op&cacheControl=max-age=23&expires=223&path=aa&time=1367310855 
+2013-04-30 16:34:15,471 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_set_meta%26accessId%3D90000003%26bucketId%3Dop%26cacheControl%3Dmax-age%3D23%26expires%3D223%26path%3Daa%26time%3D1367310855
+2013-04-30 16:34:15,471 INFO    [cosapi.py:159(setMeta)] setmeta sign : 2ek7kS%2B5XW2m6FwZhdqV73feH50%3D 
+2013-04-30 16:34:15,471 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_set_meta?time=1367310855&bucketId=op&cacheControl=max-age=23&path=aa&expires=223&accessId=90000003&sign=2ek7kS%2B5XW2m6FwZhdqV73feH50%3D
+2013-04-30 16:34:15,612 INFO    [cosapi.py:167(setMeta)] setmeta response : {"code":0,"data":null,"msg":"ok"}
+
+2013-04-30 16:34:15,612 INFO    [cosutil.py:90(makesign)] before param : /api/cos_get_meta&accessId=90000003&bucketId=op&path=aa&time=1367310855 
+2013-04-30 16:34:15,612 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_get_meta%26accessId%3D90000003%26bucketId%3Dop%26path%3Daa%26time%3D1367310855
+2013-04-30 16:34:15,612 INFO    [cosapi.py:132(getMeta)] getmeta sign : eWqNr74rIjcU34KE85ZItVw6%2FOo%3D 
+2013-04-30 16:34:15,612 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_get_meta?bucketId=op&time=1367310855&sign=eWqNr74rIjcU34KE85ZItVw6%2FOo%3D&accessId=90000003&path=aa
+2013-04-30 16:34:15,737 INFO    [cosapi.py:140(getMeta)] getmeta response : {"code":0,"data":{"Cache-Control":"max-age=23","Expires":" Tue Apr 30 16:37:58 2013","crttime":1367289477,"type":2,"uptime":1367310856},"msg":"ok"}
+
+2013-04-30 16:46:50,657 INFO    [cosutil.py:90(makesign)] before param : /api/cos_rmdir&accessId=90000003&bucketId=op&path=test&time=1367311610 
+2013-04-30 16:46:50,657 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_rmdir%26accessId%3D90000003%26bucketId%3Dop%26path%3Dtest%26time%3D1367311610
+2013-04-30 16:46:50,657 INFO    [cosapi.py:104(rmdir)] rmdir sign : j41XMus7B8pF1PXBKB976sgEXAU%3D 
+2013-04-30 16:46:50,657 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_rmdir?bucketId=op&time=1367311610&sign=j41XMus7B8pF1PXBKB976sgEXAU%3D&accessId=90000003&path=test
+2013-04-30 16:46:50,812 INFO    [cosapi.py:112(rmdir)] rmdir response : {"code":0,"data":null,"msg":"ok"}
+
+2013-04-30 16:46:50,812 INFO    [cosutil.py:90(makesign)] before param : /api/cos_set_meta&accessId=90000003&bucketId=op&cacheControl=max-age=23&expires=223&path=aa&time=1367311610 
+2013-04-30 16:46:50,812 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_set_meta%26accessId%3D90000003%26bucketId%3Dop%26cacheControl%3Dmax-age%3D23%26expires%3D223%26path%3Daa%26time%3D1367311610
+2013-04-30 16:46:50,812 INFO    [cosapi.py:159(setMeta)] setmeta sign : gNb%2F1ff5LXFVv%2F07UoD7%2FQ2SbuM%3D 
+2013-04-30 16:46:50,812 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_set_meta?time=1367311610&bucketId=op&cacheControl=max-age=23&path=aa&expires=223&accessId=90000003&sign=gNb%2F1ff5LXFVv%2F07UoD7%2FQ2SbuM%3D
+2013-04-30 16:46:50,937 INFO    [cosapi.py:167(setMeta)] setmeta response : {"code":0,"data":null,"msg":"ok"}
+
+2013-04-30 16:46:50,937 INFO    [cosutil.py:90(makesign)] before param : /api/cos_get_meta&accessId=90000003&bucketId=op&path=aa&time=1367311610 
+2013-04-30 16:46:50,937 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_get_meta%26accessId%3D90000003%26bucketId%3Dop%26path%3Daa%26time%3D1367311610
+2013-04-30 16:46:50,937 INFO    [cosapi.py:132(getMeta)] getmeta sign : 9punR3QkPuQd0oO13jXRsiBSNbE%3D 
+2013-04-30 16:46:50,937 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_get_meta?bucketId=op&time=1367311610&sign=9punR3QkPuQd0oO13jXRsiBSNbE%3D&accessId=90000003&path=aa
+2013-04-30 16:46:51,046 INFO    [cosapi.py:140(getMeta)] getmeta response : {"code":0,"data":{"Cache-Control":"max-age=23","Expires":" Tue Apr 30 16:50:34 2013","crttime":1367289477,"type":2,"uptime":1367311611},"msg":"ok"}
+
+2013-04-30 16:46:51,046 INFO    [cosutil.py:90(makesign)] before param : /api/cos_list_file&accessId=90000003&bucketId=op&path=/&time=1367311611 
+2013-04-30 16:46:51,046 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_list_file%26accessId%3D90000003%26bucketId%3Dop%26path%3D%2F%26time%3D1367311611
+2013-04-30 16:46:51,046 INFO    [cosapi.py:186(listFile)] listFile sign : %2BX1KO0SkDIjL0xz1ny%2Ffrpi%2BD1M%3D 
+2013-04-30 16:46:51,046 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_list_file?bucketId=op&time=1367311611&sign=%2BX1KO0SkDIjL0xz1ny%2Ffrpi%2BD1M%3D&accessId=90000003&path=/
+2013-04-30 16:46:51,171 INFO    [cosapi.py:194(listFile)] listFile response : {"code":0,"data":{"files":[{"Cache-Control":" ","Content-Encoding":" ","Content-Language":" ","Expires":" Sun Apr 28 16:24:32 2013","crttime":1367137472,"name":"231231","type":2,"uptime":1367137472},{"Cache-Control":" max-age=23","Expires":"  Tue Apr 30 16:50:34 2013","crttime":1367289477,"name":"aa","type":2,"uptime":1367311611},{"crttime":1367300772,"finish_flag":true,"fsize":3496,"md5":"84886336CEB100B719CF1301110A799A","name":"kk.txt","type":1,"uptime":1367300773},{"crttime":1367137478,"finish_flag":true,"fsize":2430852,"md5":"550EF8F9A12A7404FDBFB3C6F9420C2C","name":"resources.pak","type":1,"uptime":1367137481}],"filetotalnum":2,"foldertotalnum":2},"msg":"ok"}
+
+2013-04-30 16:46:51,171 INFO    [cosutil.py:90(makesign)] before param : /api/cos_delete_file&accessId=90000003&bucketId=op&deleteObj=kk.txt&path=/&time=1367311611 
+2013-04-30 16:46:51,171 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_delete_file%26accessId%3D90000003%26bucketId%3Dop%26deleteObj%3Dkk.txt%26path%3D%2F%26time%3D1367311611
+2013-04-30 16:46:51,171 INFO    [cosapi.py:213(deleteFile)] deleteFile sign : %2Fn3KQynY3Wg5iw%2BxNPX2t1QwiNs%3D 
+2013-04-30 16:46:51,171 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_delete_file?bucketId=op&deleteObj=kk.txt&path=/&time=1367311611&accessId=90000003&sign=%2Fn3KQynY3Wg5iw%2BxNPX2t1QwiNs%3D
+2013-04-30 16:46:51,312 INFO    [cosapi.py:221(deleteFile)] deleteFile response : {"code":0,"data":null,"msg":"ok"}
+
+2013-04-30 16:46:51,312 INFO    [cosutil.py:90(makesign)] before param : /api/cos_rename&accessId=90000003&bucketId=op&dstFilePath=/aa.txt&srcFilePath=/kk.txt&time=1367311611 
+2013-04-30 16:46:51,312 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_rename%26accessId%3D90000003%26bucketId%3Dop%26dstFilePath%3D%2Faa.txt%26srcFilePath%3D%2Fkk.txt%26time%3D1367311611
+2013-04-30 16:46:51,312 INFO    [cosapi.py:240(rename)] rename sign : zDiJZnaQ%2BVhNOvu8%2FikMyUJ%2BjlA%3D 
+2013-04-30 16:46:51,312 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_rename?srcFilePath=/kk.txt&time=1367311611&dstFilePath=/aa.txt&bucketId=op&accessId=90000003&sign=zDiJZnaQ%2BVhNOvu8%2FikMyUJ%2BjlA%3D
+2013-04-30 16:46:51,423 INFO    [cosapi.py:248(rename)] rename response : {"code":-29490,"data":null,"msg":"spath error.path may be null or too long!longer than 4096"}
+
+2013-04-30 16:47:43,053 INFO    [cosutil.py:90(makesign)] before param : /api/cos_rmdir&accessId=90000003&bucketId=op&path=test&time=1367311663 
+2013-04-30 16:47:43,053 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_rmdir%26accessId%3D90000003%26bucketId%3Dop%26path%3Dtest%26time%3D1367311663
+2013-04-30 16:47:43,053 INFO    [cosapi.py:104(rmdir)] rmdir sign : BWs%2BmYo4IV7yz6HRIYTiKjK8eY8%3D 
+2013-04-30 16:47:43,053 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_rmdir?bucketId=op&time=1367311663&sign=BWs%2BmYo4IV7yz6HRIYTiKjK8eY8%3D&accessId=90000003&path=test
+2013-04-30 16:47:43,226 INFO    [cosapi.py:112(rmdir)] rmdir response : {"code":-24985,"data":null,"msg":"the directory is not exists!"}
+
+2013-04-30 16:47:43,226 INFO    [cosutil.py:90(makesign)] before param : /api/cos_set_meta&accessId=90000003&bucketId=op&cacheControl=max-age=23&expires=223&path=aa&time=1367311663 
+2013-04-30 16:47:43,226 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_set_meta%26accessId%3D90000003%26bucketId%3Dop%26cacheControl%3Dmax-age%3D23%26expires%3D223%26path%3Daa%26time%3D1367311663
+2013-04-30 16:47:43,226 INFO    [cosapi.py:159(setMeta)] setmeta sign : 7Fl%2FdP6Ynktt%2FsM5gXY6Gl0p%2Fus%3D 
+2013-04-30 16:47:43,226 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_set_meta?time=1367311663&bucketId=op&cacheControl=max-age=23&path=aa&expires=223&accessId=90000003&sign=7Fl%2FdP6Ynktt%2FsM5gXY6Gl0p%2Fus%3D
+2013-04-30 16:47:43,382 INFO    [cosapi.py:167(setMeta)] setmeta response : {"code":0,"data":null,"msg":"ok"}
+
+2013-04-30 16:47:43,382 INFO    [cosutil.py:90(makesign)] before param : /api/cos_get_meta&accessId=90000003&bucketId=op&path=aa&time=1367311663 
+2013-04-30 16:47:43,382 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_get_meta%26accessId%3D90000003%26bucketId%3Dop%26path%3Daa%26time%3D1367311663
+2013-04-30 16:47:43,382 INFO    [cosapi.py:132(getMeta)] getmeta sign : 25f685tA04z8h4zXXVpR6HN%2BamQ%3D 
+2013-04-30 16:47:43,382 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_get_meta?bucketId=op&time=1367311663&sign=25f685tA04z8h4zXXVpR6HN%2BamQ%3D&accessId=90000003&path=aa
+2013-04-30 16:47:43,539 INFO    [cosapi.py:140(getMeta)] getmeta response : {"code":0,"data":{"Cache-Control":"max-age=23","Expires":" Tue Apr 30 16:51:26 2013","crttime":1367289477,"type":2,"uptime":1367311663},"msg":"ok"}
+
+2013-04-30 16:47:43,539 INFO    [cosutil.py:90(makesign)] before param : /api/cos_list_file&accessId=90000003&bucketId=op&path=/&time=1367311663 
+2013-04-30 16:47:43,539 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_list_file%26accessId%3D90000003%26bucketId%3Dop%26path%3D%2F%26time%3D1367311663
+2013-04-30 16:47:43,539 INFO    [cosapi.py:186(listFile)] listFile sign : kV6GwHp79IWQ8u0kYYzrGpXa%2Fio%3D 
+2013-04-30 16:47:43,539 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_list_file?bucketId=op&time=1367311663&sign=kV6GwHp79IWQ8u0kYYzrGpXa%2Fio%3D&accessId=90000003&path=/
+2013-04-30 16:47:43,680 INFO    [cosapi.py:194(listFile)] listFile response : {"code":0,"data":{"files":[{"Cache-Control":" ","Content-Encoding":" ","Content-Language":" ","Expires":" Sun Apr 28 16:24:32 2013","crttime":1367137472,"name":"231231","type":2,"uptime":1367137472},{"Cache-Control":" max-age=23","Expires":"  Tue Apr 30 16:51:26 2013","crttime":1367289477,"name":"aa","type":2,"uptime":1367311663},{"crttime":1367137478,"finish_flag":true,"fsize":2430852,"md5":"550EF8F9A12A7404FDBFB3C6F9420C2C","name":"resources.pak","type":1,"uptime":1367137481}],"filetotalnum":1,"foldertotalnum":2},"msg":"ok"}
+
+2013-04-30 16:47:43,680 INFO    [cosutil.py:90(makesign)] before param : /api/cos_delete_file&accessId=90000003&bucketId=op&deleteObj=kk.txt&path=/&time=1367311663 
+2013-04-30 16:47:43,694 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_delete_file%26accessId%3D90000003%26bucketId%3Dop%26deleteObj%3Dkk.txt%26path%3D%2F%26time%3D1367311663
+2013-04-30 16:47:43,694 INFO    [cosapi.py:213(deleteFile)] deleteFile sign : VgyUBwduz3y3w1gZ7%2FKTk9yqpx8%3D 
+2013-04-30 16:47:43,694 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_delete_file?bucketId=op&deleteObj=kk.txt&path=/&time=1367311663&accessId=90000003&sign=VgyUBwduz3y3w1gZ7%2FKTk9yqpx8%3D
+2013-04-30 16:47:43,867 INFO    [cosapi.py:221(deleteFile)] deleteFile response : {"code":-24990,"data":null,"msg":"delete file failed!error code is :file not found"}
+
+2013-04-30 16:47:43,867 INFO    [cosutil.py:90(makesign)] before param : /api/cos_rename&accessId=90000003&bucketId=op&dstFilePath=/aa.txt&srcFilePath=/kk.txt&time=1367311663 
+2013-04-30 16:47:43,867 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_rename%26accessId%3D90000003%26bucketId%3Dop%26dstFilePath%3D%2Faa.txt%26srcFilePath%3D%2Fkk.txt%26time%3D1367311663
+2013-04-30 16:47:43,867 INFO    [cosapi.py:240(rename)] rename sign : L3GYnCvMJnI%2FhyMtmNYEjeIq6oI%3D 
+2013-04-30 16:47:43,867 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_rename?srcFilePath=/kk.txt&time=1367311663&dstFilePath=/aa.txt&bucketId=op&accessId=90000003&sign=L3GYnCvMJnI%2FhyMtmNYEjeIq6oI%3D
+2013-04-30 16:47:44,023 INFO    [cosapi.py:248(rename)] rename response : {"code":-29490,"data":null,"msg":"spath error.path may be null or too long!longer than 4096"}
+
+2013-04-30 16:47:44,023 INFO    [cosutil.py:90(makesign)] before param : /api/cos_create_bucket&accessId=90000003&bucketId=test&time=1367311664 
+2013-04-30 16:47:44,023 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_create_bucket%26accessId%3D90000003%26bucketId%3Dtest%26time%3D1367311664
+2013-04-30 16:47:44,023 INFO    [cosapi.py:267(createBucket)] createBucket sign : wBFwZnOs885Fc1%2Bo%2FzE1HikoGGk%3D 
+2013-04-30 16:47:44,023 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_create_bucket?bucketId=test&sign=wBFwZnOs885Fc1%2Bo%2FzE1HikoGGk%3D&accessId=90000003&time=1367311664
+2013-04-30 16:47:44,210 INFO    [cosapi.py:275(createBucket)] createBucket response : {"code":0,"data":null,"msg":"ok"}
+
+2013-04-30 16:48:04,891 INFO    [cosutil.py:90(makesign)] before param : /api/cos_rmdir&accessId=90000003&bucketId=op&path=test&time=1367311684 
+2013-04-30 16:48:04,891 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_rmdir%26accessId%3D90000003%26bucketId%3Dop%26path%3Dtest%26time%3D1367311684
+2013-04-30 16:48:04,891 INFO    [cosapi.py:104(rmdir)] rmdir sign : 6CVibluDDcEt0Vi8AKI2JmVF3BA%3D 
+2013-04-30 16:48:04,891 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_rmdir?bucketId=op&time=1367311684&sign=6CVibluDDcEt0Vi8AKI2JmVF3BA%3D&accessId=90000003&path=test
+2013-04-30 16:48:05,032 INFO    [cosapi.py:112(rmdir)] rmdir response : {"code":-24985,"data":null,"msg":"the directory is not exists!"}
+
+2013-04-30 16:48:05,032 INFO    [cosutil.py:90(makesign)] before param : /api/cos_set_meta&accessId=90000003&bucketId=op&cacheControl=max-age=23&expires=223&path=aa&time=1367311685 
+2013-04-30 16:48:05,032 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_set_meta%26accessId%3D90000003%26bucketId%3Dop%26cacheControl%3Dmax-age%3D23%26expires%3D223%26path%3Daa%26time%3D1367311685
+2013-04-30 16:48:05,032 INFO    [cosapi.py:159(setMeta)] setmeta sign : Hiu7z8hyW8K6lQI2CFO%2BYIq%2F6pE%3D 
+2013-04-30 16:48:05,032 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_set_meta?time=1367311685&bucketId=op&cacheControl=max-age=23&path=aa&expires=223&accessId=90000003&sign=Hiu7z8hyW8K6lQI2CFO%2BYIq%2F6pE%3D
+2013-04-30 16:48:05,157 INFO    [cosapi.py:167(setMeta)] setmeta response : {"code":0,"data":null,"msg":"ok"}
+
+2013-04-30 16:48:05,157 INFO    [cosutil.py:90(makesign)] before param : /api/cos_get_meta&accessId=90000003&bucketId=op&path=aa&time=1367311685 
+2013-04-30 16:48:05,157 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_get_meta%26accessId%3D90000003%26bucketId%3Dop%26path%3Daa%26time%3D1367311685
+2013-04-30 16:48:05,157 INFO    [cosapi.py:132(getMeta)] getmeta sign : FMFDBbyIL7TU%2BgsTm0xdenUMN4w%3D 
+2013-04-30 16:48:05,157 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_get_meta?bucketId=op&time=1367311685&sign=FMFDBbyIL7TU%2BgsTm0xdenUMN4w%3D&accessId=90000003&path=aa
+2013-04-30 16:48:05,266 INFO    [cosapi.py:140(getMeta)] getmeta response : {"code":0,"data":{"Cache-Control":"max-age=23","Expires":" Tue Apr 30 16:51:48 2013","crttime":1367289477,"type":2,"uptime":1367311685},"msg":"ok"}
+
+2013-04-30 16:48:05,266 INFO    [cosutil.py:90(makesign)] before param : /api/cos_list_file&accessId=90000003&bucketId=op&path=/&time=1367311685 
+2013-04-30 16:48:05,266 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_list_file%26accessId%3D90000003%26bucketId%3Dop%26path%3D%2F%26time%3D1367311685
+2013-04-30 16:48:05,266 INFO    [cosapi.py:186(listFile)] listFile sign : YGKrSjhnMvx6iVVwq4pKYC480%2Bk%3D 
+2013-04-30 16:48:05,266 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_list_file?bucketId=op&time=1367311685&sign=YGKrSjhnMvx6iVVwq4pKYC480%2Bk%3D&accessId=90000003&path=/
+2013-04-30 16:48:05,391 INFO    [cosapi.py:194(listFile)] listFile response : {"code":0,"data":{"files":[{"Cache-Control":" ","Content-Encoding":" ","Content-Language":" ","Expires":" Sun Apr 28 16:24:32 2013","crttime":1367137472,"name":"231231","type":2,"uptime":1367137472},{"Cache-Control":" max-age=23","Expires":"  Tue Apr 30 16:51:48 2013","crttime":1367289477,"name":"aa","type":2,"uptime":1367311685},{"crttime":1367137478,"finish_flag":true,"fsize":2430852,"md5":"550EF8F9A12A7404FDBFB3C6F9420C2C","name":"resources.pak","type":1,"uptime":1367137481}],"filetotalnum":1,"foldertotalnum":2},"msg":"ok"}
+
+2013-04-30 16:48:05,391 INFO    [cosutil.py:90(makesign)] before param : /api/cos_delete_file&accessId=90000003&bucketId=op&deleteObj=kk.txt&path=/&time=1367311685 
+2013-04-30 16:48:05,391 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_delete_file%26accessId%3D90000003%26bucketId%3Dop%26deleteObj%3Dkk.txt%26path%3D%2F%26time%3D1367311685
+2013-04-30 16:48:05,391 INFO    [cosapi.py:213(deleteFile)] deleteFile sign : IlEDGt8AqfkEwXviA71Z6Kc%2BrAU%3D 
+2013-04-30 16:48:05,391 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_delete_file?bucketId=op&deleteObj=kk.txt&path=/&time=1367311685&accessId=90000003&sign=IlEDGt8AqfkEwXviA71Z6Kc%2BrAU%3D
+2013-04-30 16:48:05,532 INFO    [cosapi.py:221(deleteFile)] deleteFile response : {"code":-24990,"data":null,"msg":"delete file failed!error code is :file not found"}
+
+2013-04-30 16:48:05,532 INFO    [cosutil.py:90(makesign)] before param : /api/cos_rename&accessId=90000003&bucketId=op&dstFilePath=/aa.txt&srcFilePath=/kk.txt&time=1367311685 
+2013-04-30 16:48:05,532 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_rename%26accessId%3D90000003%26bucketId%3Dop%26dstFilePath%3D%2Faa.txt%26srcFilePath%3D%2Fkk.txt%26time%3D1367311685
+2013-04-30 16:48:05,532 INFO    [cosapi.py:240(rename)] rename sign : RZ6%2Fge4b90nP37LYNv1ksbCmQNk%3D 
+2013-04-30 16:48:05,532 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_rename?srcFilePath=/kk.txt&time=1367311685&dstFilePath=/aa.txt&bucketId=op&accessId=90000003&sign=RZ6%2Fge4b90nP37LYNv1ksbCmQNk%3D
+2013-04-30 16:48:05,627 INFO    [cosapi.py:248(rename)] rename response : {"code":-29490,"data":null,"msg":"spath error.path may be null or too long!longer than 4096"}
+
+2013-04-30 16:48:05,627 INFO    [cosutil.py:90(makesign)] before param : /api/cos_create_bucket&accessId=90000003&bucketId=test&time=1367311685 
+2013-04-30 16:48:05,627 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_create_bucket%26accessId%3D90000003%26bucketId%3Dtest%26time%3D1367311685
+2013-04-30 16:48:05,627 INFO    [cosapi.py:267(createBucket)] createBucket sign : J7Al0JhUpnniGZd84Ogs5pYJCzg%3D 
+2013-04-30 16:48:05,627 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_create_bucket?bucketId=test&sign=J7Al0JhUpnniGZd84Ogs5pYJCzg%3D&accessId=90000003&time=1367311685
+2013-04-30 16:48:05,736 INFO    [cosapi.py:275(createBucket)] createBucket response : {"code":-25498,"data":null,"msg":"create bucket error, the same bucket id had exist!"}
+
+2013-04-30 16:48:05,736 INFO    [cosutil.py:90(makesign)] before param : /api/cos_get_bucket&accessId=90000003&bucketId=op&time=1367311685 
+2013-04-30 16:48:05,736 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_get_bucket%26accessId%3D90000003%26bucketId%3Dop%26time%3D1367311685
+2013-04-30 16:48:05,736 INFO    [cosapi.py:348(getBucket)] getBucket sign : RcburDEuS2iyyMYC5daLGV%2F7tfo%3D 
+2013-04-30 16:48:05,736 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_get_bucket?bucketId=op&sign=RcburDEuS2iyyMYC5daLGV%2F7tfo%3D&accessId=90000003&time=1367311685
+2013-04-30 16:48:05,845 INFO    [cosapi.py:356(getBucket)] getBucket response : {"code":0,"data":{"acl":1,"crttime":1366179599,"referer":"www.qq.com","uptime":1366195798},"msg":"ok"}
+
+2013-04-30 16:48:05,845 INFO    [cosutil.py:90(makesign)] before param : /api/cos_set_bucket&accessId=90000003&acl=0&bucketId=op&referer=www.qq.com&time=1367311685 
+2013-04-30 16:48:05,845 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_set_bucket%26accessId%3D90000003%26acl%3D0%26bucketId%3Dop%26referer%3Dwww.qq.com%26time%3D1367311685
+2013-04-30 16:48:05,845 INFO    [cosapi.py:321(setBucket)] setBucket sign : jy4aFLaDVNlzKGuGBt8Qe9ZZ%2Fjg%3D 
+2013-04-30 16:48:05,845 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_set_bucket?referer=www.qq.com&time=1367311685&bucketId=op&sign=jy4aFLaDVNlzKGuGBt8Qe9ZZ%2Fjg%3D&accessId=90000003&acl=0
+2013-04-30 16:48:05,986 INFO    [cosapi.py:329(setBucket)] setBucket response : {"code":0,"data":null,"msg":"ok"}
+
+2013-04-30 16:48:05,986 INFO    [cosutil.py:90(makesign)] before param : /api/cos_list_bucket&accessId=90000003&time=1367311685 
+2013-04-30 16:48:06,002 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_list_bucket%26accessId%3D90000003%26time%3D1367311685
+2013-04-30 16:48:06,002 INFO    [cosapi.py:375(listBucket)] listBukcet sign : b9LcauVffCaNcSQbgtBjY6WGeZk%3D 
+2013-04-30 16:48:06,002 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_list_bucket?sign=b9LcauVffCaNcSQbgtBjY6WGeZk%3D&accessId=90000003&time=1367311685
+2013-04-30 16:48:06,111 INFO    [cosapi.py:383(listBucket)] listBucket response : {"code":0,"data":{"direntlst":[{"acl":1,"crttime":1365401290,"name":"231","referer":"www.qq.com","type":2,"uptime":1366185654},{"acl":0,"crttime":1365401298,"name":"32","referer":"","type":2,"uptime":1365401298},{"acl":1,"crttime":1366129981,"name":"good","referer":"www.qq.com","type":2,"uptime":1366167555},{"acl":0,"crttime":1366167577,"name":"hij","referer":"","type":2,"uptime":1366167577},{"acl":0,"crttime":1366180398,"name":"joey","referer":"www.qw.com","type":2,"uptime":1366185864},{"acl":0,"crttime":1366179599,"name":"op","referer":"www.qq.com","type":2,"uptime":1367311686},{"acl":0,"crttime":1367311664,"name":"test","referer":"","type":2,"uptime":1367311664}],"foldertotalnum":7},"msg":"ok"}
+
+2013-04-30 16:57:41,005 INFO    [cosutil.py:90(makesign)] before param : /api/cos_rmdir&accessId=90000003&bucketId=op&path=test&time=1367312261 
+2013-04-30 16:57:41,005 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_rmdir%26accessId%3D90000003%26bucketId%3Dop%26path%3Dtest%26time%3D1367312261
+2013-04-30 16:57:41,005 INFO    [cosapi.py:104(rmdir)] rmdir sign : 1%2BegQ2ryQ71rEZFQpM1CqYxFb7E%3D 
+2013-04-30 16:57:41,005 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_rmdir?bucketId=op&time=1367312261&sign=1%2BegQ2ryQ71rEZFQpM1CqYxFb7E%3D&accessId=90000003&path=test
+2013-04-30 16:57:41,130 INFO    [cosapi.py:112(rmdir)] rmdir response : {"code":-24985,"data":null,"msg":"the directory is not exists!"}
+
+2013-04-30 16:57:41,130 INFO    [cosutil.py:90(makesign)] before param : /api/cos_set_meta&accessId=90000003&bucketId=op&cacheControl=max-age=23&expires=223&path=aa&time=1367312261 
+2013-04-30 16:57:41,130 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_set_meta%26accessId%3D90000003%26bucketId%3Dop%26cacheControl%3Dmax-age%3D23%26expires%3D223%26path%3Daa%26time%3D1367312261
+2013-04-30 16:57:41,130 INFO    [cosapi.py:159(setMeta)] setmeta sign : a1HEW0YCIh%2FRS8AcUocae87FAQs%3D 
+2013-04-30 16:57:41,130 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_set_meta?time=1367312261&bucketId=op&cacheControl=max-age=23&path=aa&expires=223&accessId=90000003&sign=a1HEW0YCIh%2FRS8AcUocae87FAQs%3D
+2013-04-30 16:57:41,255 INFO    [cosapi.py:167(setMeta)] setmeta response : {"code":0,"data":null,"msg":"ok"}
+
+2013-04-30 16:57:41,255 INFO    [cosutil.py:90(makesign)] before param : /api/cos_get_meta&accessId=90000003&bucketId=op&path=aa&time=1367312261 
+2013-04-30 16:57:41,255 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_get_meta%26accessId%3D90000003%26bucketId%3Dop%26path%3Daa%26time%3D1367312261
+2013-04-30 16:57:41,255 INFO    [cosapi.py:132(getMeta)] getmeta sign : Z0ELyLWdtlfu22lCwkJmoyJV73k%3D 
+2013-04-30 16:57:41,255 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_get_meta?bucketId=op&time=1367312261&sign=Z0ELyLWdtlfu22lCwkJmoyJV73k%3D&accessId=90000003&path=aa
+2013-04-30 16:57:41,380 INFO    [cosapi.py:140(getMeta)] getmeta response : {"code":0,"data":{"Cache-Control":"max-age=23","Expires":" Tue Apr 30 17:01:24 2013","crttime":1367289477,"type":2,"uptime":1367312261},"msg":"ok"}
+
+2013-04-30 16:57:41,380 INFO    [cosutil.py:90(makesign)] before param : /api/cos_list_file&accessId=90000003&bucketId=op&path=/&time=1367312261 
+2013-04-30 16:57:41,380 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_list_file%26accessId%3D90000003%26bucketId%3Dop%26path%3D%2F%26time%3D1367312261
+2013-04-30 16:57:41,380 INFO    [cosapi.py:186(listFile)] listFile sign : wfcS5ILqHo6CMQrFtawRU8GL5VA%3D 
+2013-04-30 16:57:41,380 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_list_file?bucketId=op&time=1367312261&sign=wfcS5ILqHo6CMQrFtawRU8GL5VA%3D&accessId=90000003&path=/
+2013-04-30 16:57:41,490 INFO    [cosapi.py:194(listFile)] listFile response : {"code":0,"data":{"files":[{"Cache-Control":" ","Content-Encoding":" ","Content-Language":" ","Expires":" Sun Apr 28 16:24:32 2013","crttime":1367137472,"name":"231231","type":2,"uptime":1367137472},{"Cache-Control":" max-age=23","Expires":"  Tue Apr 30 17:01:24 2013","crttime":1367289477,"name":"aa","type":2,"uptime":1367312261},{"crttime":1367137478,"finish_flag":true,"fsize":2430852,"md5":"550EF8F9A12A7404FDBFB3C6F9420C2C","name":"resources.pak","type":1,"uptime":1367137481}],"filetotalnum":1,"foldertotalnum":2},"msg":"ok"}
+
+2013-04-30 16:57:41,490 INFO    [cosutil.py:90(makesign)] before param : /api/cos_delete_file&accessId=90000003&bucketId=op&deleteObj=kk.txt&path=/&time=1367312261 
+2013-04-30 16:57:41,490 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_delete_file%26accessId%3D90000003%26bucketId%3Dop%26deleteObj%3Dkk.txt%26path%3D%2F%26time%3D1367312261
+2013-04-30 16:57:41,490 INFO    [cosapi.py:213(deleteFile)] deleteFile sign : FSorgUR0fn5mf1fATj1XyI%2FWzCw%3D 
+2013-04-30 16:57:41,490 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_delete_file?bucketId=op&deleteObj=kk.txt&path=/&time=1367312261&accessId=90000003&sign=FSorgUR0fn5mf1fATj1XyI%2FWzCw%3D
+2013-04-30 16:57:41,615 INFO    [cosapi.py:221(deleteFile)] deleteFile response : {"code":-24990,"data":null,"msg":"delete file failed!error code is :file not found"}
+
+2013-04-30 16:57:41,615 INFO    [cosutil.py:90(makesign)] before param : /api/cos_rename&accessId=90000003&bucketId=op&dstFilePath=/aa.txt&srcFilePath=/kk.txt&time=1367312261 
+2013-04-30 16:57:41,615 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_rename%26accessId%3D90000003%26bucketId%3Dop%26dstFilePath%3D%2Faa.txt%26srcFilePath%3D%2Fkk.txt%26time%3D1367312261
+2013-04-30 16:57:41,615 INFO    [cosapi.py:240(rename)] rename sign : %2BpvbObzZfo2hGlyrcLFFJ%2Fs9SFo%3D 
+2013-04-30 16:57:41,615 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_rename?srcFilePath=/kk.txt&time=1367312261&dstFilePath=/aa.txt&bucketId=op&accessId=90000003&sign=%2BpvbObzZfo2hGlyrcLFFJ%2Fs9SFo%3D
+2013-04-30 16:57:41,693 INFO    [cosapi.py:248(rename)] rename response : {"code":-29490,"data":null,"msg":"spath error.path may be null or too long!longer than 4096"}
+
+2013-04-30 16:57:41,693 INFO    [cosutil.py:90(makesign)] before param : /api/cos_create_bucket&accessId=90000003&bucketId=test&time=1367312261 
+2013-04-30 16:57:41,693 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_create_bucket%26accessId%3D90000003%26bucketId%3Dtest%26time%3D1367312261
+2013-04-30 16:57:41,693 INFO    [cosapi.py:267(createBucket)] createBucket sign : ssWbxJE%2BenzWKDRm8X%2By1Wc5Xac%3D 
+2013-04-30 16:57:41,693 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_create_bucket?bucketId=test&sign=ssWbxJE%2BenzWKDRm8X%2By1Wc5Xac%3D&accessId=90000003&time=1367312261
+2013-04-30 16:57:41,802 INFO    [cosapi.py:275(createBucket)] createBucket response : {"code":-25498,"data":null,"msg":"create bucket error, the same bucket id had exist!"}
+
+2013-04-30 16:57:41,802 INFO    [cosutil.py:90(makesign)] before param : /api/cos_get_bucket&accessId=90000003&bucketId=op&time=1367312261 
+2013-04-30 16:57:41,802 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_get_bucket%26accessId%3D90000003%26bucketId%3Dop%26time%3D1367312261
+2013-04-30 16:57:41,818 INFO    [cosapi.py:348(getBucket)] getBucket sign : z9LXhk0cdKLRv%2Bi%2B40tQFIPdzP8%3D 
+2013-04-30 16:57:41,818 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_get_bucket?bucketId=op&sign=z9LXhk0cdKLRv%2Bi%2B40tQFIPdzP8%3D&accessId=90000003&time=1367312261
+2013-04-30 16:57:41,927 INFO    [cosapi.py:356(getBucket)] getBucket response : {"code":0,"data":{"acl":0,"crttime":1366179599,"referer":"www.qq.com","uptime":1367311686},"msg":"ok"}
+
+2013-04-30 16:57:41,927 INFO    [cosutil.py:90(makesign)] before param : /api/cos_set_bucket&accessId=90000003&acl=0&bucketId=op&referer=*.qq.com&time=1367312261 
+2013-04-30 16:57:41,927 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_set_bucket%26accessId%3D90000003%26acl%3D0%26bucketId%3Dop%26referer%3D%2A.qq.com%26time%3D1367312261
+2013-04-30 16:57:41,927 INFO    [cosapi.py:321(setBucket)] setBucket sign : a7Hoobq%2BUtM6mzW58NiCHUr1kjo%3D 
+2013-04-30 16:57:41,927 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_set_bucket?referer=*.qq.com&time=1367312261&bucketId=op&sign=a7Hoobq%2BUtM6mzW58NiCHUr1kjo%3D&accessId=90000003&acl=0
+2013-04-30 16:57:42,036 INFO    [cosapi.py:329(setBucket)] setBucket response : {"code":0,"data":null,"msg":"ok"}
+
+2013-04-30 16:57:42,036 INFO    [cosutil.py:90(makesign)] before param : /api/cos_list_bucket&accessId=90000003&time=1367312262 
+2013-04-30 16:57:42,036 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_list_bucket%26accessId%3D90000003%26time%3D1367312262
+2013-04-30 16:57:42,036 INFO    [cosapi.py:375(listBucket)] listBukcet sign : o2w8wmq8laEV4pg%2BOjyp2rZrS4o%3D 
+2013-04-30 16:57:42,036 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_list_bucket?sign=o2w8wmq8laEV4pg%2BOjyp2rZrS4o%3D&accessId=90000003&time=1367312262
+2013-04-30 16:57:42,161 INFO    [cosapi.py:383(listBucket)] listBucket response : {"code":0,"data":{"direntlst":[{"acl":1,"crttime":1365401290,"name":"231","referer":"www.qq.com","type":2,"uptime":1366185654},{"acl":0,"crttime":1365401298,"name":"32","referer":"","type":2,"uptime":1365401298},{"acl":1,"crttime":1366129981,"name":"good","referer":"www.qq.com","type":2,"uptime":1366167555},{"acl":0,"crttime":1366167577,"name":"hij","referer":"","type":2,"uptime":1366167577},{"acl":0,"crttime":1366180398,"name":"joey","referer":"www.qw.com","type":2,"uptime":1366185864},{"acl":0,"crttime":1366179599,"name":"op","referer":"*.qq.com","type":2,"uptime":1367312262},{"acl":0,"crttime":1367311664,"name":"test","referer":"","type":2,"uptime":1367311664}],"foldertotalnum":7},"msg":"ok"}
+
+2013-04-30 16:59:39,325 INFO    [cosutil.py:90(makesign)] before param : /api/cos_set_bucket&accessId=90000003&acl=0&referer=*.qq.com&time=1367312379 
+2013-04-30 16:59:39,325 INFO    [cosutil.py:92(makesign)] param : %2Fapi%2Fcos_set_bucket%26accessId%3D90000003%26acl%3D0%26referer%3D%2A.qq.com%26time%3D1367312379
+2013-04-30 16:59:39,325 INFO    [cosapi.py:321(setBucket)] setBucket sign : ql9IH95AjxLy476emkkAytHJD4w%3D 
+2013-04-30 16:59:39,325 INFO    [cosutil.py:114(makeUrl)] get url : http://api.qcloudcos.com/api/cos_set_bucket?time=1367312379&referer=*.qq.com&accessId=90000003&sign=ql9IH95AjxLy476emkkAytHJD4w%3D&acl=0
+2013-04-30 16:59:39,434 INFO    [cosapi.py:329(setBucket)] setBucket response : {"code":-29494,"data":null,"msg":"bucket id may be null or too long! longer than 64"}
+
